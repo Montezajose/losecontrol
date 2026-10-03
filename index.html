@@ -15,6 +15,8 @@
   ol { padding-left: 1.2rem; }
   a { color: var(--accent); }
   footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+  .button { display: inline-block; margin: .4rem 0; padding: 12px 22px; border-radius: 999px; background: var(--accent); color: #0d0520; font-weight: 700; text-decoration: none; box-shadow: 0 0 18px rgba(0,229,255,.5); }
+  .note { color: var(--muted); font-size: .9rem; margin-bottom: 0; }
 </style>
 </head>
 <body>
@@ -22,10 +24,19 @@
   <h1>Lose Control</h1>
   <p class="lead">Tu iPhone como mando para jugar en tu PC · Your iPhone as a controller for your PC</p>
 
+  <h2>Descarga para Windows · Download for Windows</h2>
+  <div class="card download">
+    <p><strong>Lose Control Host</strong> es el programa gratuito que convierte los botones del iPhone en un mando para tu PC.
+    Se instala una sola vez: incluye el driver del mando, el permiso del Firewall y se abre solo con Windows.</p>
+    <p lang="en">Free companion app for your PC. Install it once: it sets up the gamepad driver and the Firewall, and starts with Windows.</p>
+    <a class="button" href="https://github.com/Montezajose/losecontrol/releases/latest/download/LoseControlHost-Setup.exe">Descargar Lose Control Host · Download</a>
+    <p class="note">Windows 10 (2004) o Windows 11, 64 bits.</p>
+  </div>
+
   <h2>Cómo empezar</h2>
   <div class="card">
     <ol>
-      <li>Instala y abre <strong>Lose Control Host</strong> en tu PC con Windows (vive junto al reloj).</li>
+      <li>Instala <strong>Lose Control Host</strong> en tu PC con Windows (botón de arriba). Queda abierto junto al reloj y se abre solo cada vez que enciendes la PC.</li>
       <li>Conecta el iPhone y la PC a la misma red Wi-Fi, o enciende el Bluetooth de la PC.</li>
       <li>Abre Lose Control en el iPhone y acepta los permisos de Red local y Bluetooth.</li>
       <li>Se conecta solo. Los juegos y emuladores lo ven como un mando DualShock 4 o Xbox 360.</li>
@@ -35,6 +46,7 @@
   <h2>Si no se conecta</h2>
   <div class="card">
     <ul>
+      <li>Revisa que el ícono de Lose Control esté junto al reloj (a veces escondido en la flecha ^). Si no está, ábrelo desde el menú Inicio.</li>
       <li>En la PC: clic derecho en el ícono de Lose Control → <em>Permitir en el Firewall (todas las redes)</em>.</li>
       <li>En el iPhone: ⚙ → <em>PCs en tu red Wi-Fi</em>, o escribe la IP que muestra el menú del ícono de la PC.</li>
       <li>Redes de hotel o de invitados no dejan que los dispositivos se vean: usa Bluetooth.</li>
